@@ -1,0 +1,12 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.page {padding:20px;}
+.login-page label {width:100px; display: inline-block;}
+.login-page .input {margin-bottom: 10px;}

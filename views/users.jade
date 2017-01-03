@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  div.page
+    h1= title
+    each val, index in users
+      p= 'Логин:' + index 
+      p= 'Пароль: ' + val
+      br

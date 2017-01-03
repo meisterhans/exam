@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.page.login-page
+    h1= title
+    form(method='post' action='/users/login/process')
+      div.input
+        label(for='login') Логин
+        input#login(name='login', value='')
+      div.input
+        label(for='password') Пароль
+        input#login(type='password', name='password', value='')
+      input(type='submit')
+
